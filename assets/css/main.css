@@ -208,6 +208,7 @@
 
 	h2 {
 		font-size: 1.5em;
+		text-transform: capitalize;
 	}
 	h2 span {
 		font-weight: 400;
@@ -452,8 +453,7 @@
 		-ms-perspective: 1000px;
 		perspective: 1000px;
 		position: relative;
-		min-height: 100%;
-		padding: 1.5em;
+		padding: 2.5em;
 		z-index: 2;
 	}
 
