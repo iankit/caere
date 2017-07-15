@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Caere India</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Welcome To Caere</h1>
+						</header>
+						
+						<hr />
+						<h2>Your registered number: <span id="phoneNumber"></span></h2>
+						<form method="post" action="#" id="dataForm">
+							<div class="field">
+								<div class="select-wrapper">
+								<label for="city">Select Your City: 
+									<select name="city" id="city" class="dropdown">
+										<option value="">City</option>
+										<option value="Kolkata">Kolkata</option>
+										<option value="Bengaluru">Bengaluru</option>
+										<option value="Mumbai">Mumbai</option>
+										<option value="Delhi">Delhi</option>
+									</select>
+								</label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+								<label for="branch">Select Your Branch: 
+									<select name="branch" id="branch" class="dropdown">
+										<option value="">Branch</option>
+										<option value="Branch 1">Branch 1</option>
+										<option value="Branch 2">Branch 2</option>
+										<option value="Branch 3">Branch 3</option>
+										<option value="Branch 4">Branch 4</option>
+										<option value="Branch 5">Branch 5</option>
+										<option value="Branch 7">Branch 7</option>
+										<option value="Branch 8">Branch 8</option>
+										<option value="Branch 9">Branch 9</option>
+									</select>
+								</label>
+								</div>
+							</div>
+							<h3 id="errorMsg"></h3>
+							<button id="handleSubmit" class="button">Submit</button>
+						</form>
+						<hr />
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
