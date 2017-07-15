@@ -64,6 +64,9 @@
 		html, body {
 			min-width: 320px;
 		}
+		#wrapper {
+				padding: 0!important;
+			}
 
 	}
 
@@ -406,7 +409,6 @@
 			}
 
 		@media screen and (max-width: 480px) {
-
 			#main {
 				min-width: 0;
 				width: 100%;
