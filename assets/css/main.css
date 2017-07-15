@@ -63,6 +63,7 @@
 
 		html, body {
 			min-width: 320px;
+			background: none;
 		}
 		#wrapper {
 				padding: 0!important;
@@ -455,7 +456,6 @@
 		-ms-perspective: 1000px;
 		perspective: 1000px;
 		position: relative;
-		min-height: 100%;
 		padding: 2.5em;
 		z-index: 2;
 	}
