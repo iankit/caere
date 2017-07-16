@@ -8,7 +8,7 @@ function getUsernameParameter(name, url) {
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-var phone = getUsernameParameter('user');
+var phone = getUsernameParameter('username');
 document.getElementById("phoneNumber").innerHTML = "+91 " + phone;
 
 function selectId(name) {
